@@ -1,0 +1,32 @@
+.sides{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+.homeLeft {
+  color: white;
+  font-weight: 600;
+  margin: 64px;
+}
+.valorantLogo {
+  margin: 32px 0;
+}
+.valorantLogo img {
+  position: relative;
+  height: 80px;
+}
+.subtitle {
+  width: 450px;
+  margin-bottom: 32px;
+}
+.button{
+  background-color: #FE424F;
+  color: white;
+  font-weight: 700;
+  transition: background-color 0.5s;
+}
+.button:hover{
+  background-color: #fafafa;
+  color: black;
+}

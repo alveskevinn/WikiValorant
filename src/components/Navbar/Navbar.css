@@ -1,0 +1,42 @@
+.header{
+    background-color: #161515;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+}
+.header .logo img{
+    width: 30px;
+    height: 70px
+}
+.header .logo img{
+    width: 100%;
+
+}
+.header .pages{
+    display: flex;
+    color: #fafafa;
+    list-style: none;
+}
+.header .pages li{
+    font-weight: 700;
+    margin-right: 36px;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+.header .pages li:last-child{
+    margin-right: 0px;
+    cursor: pointer;
+}
+.header .pages li:hover{
+    color: #FE424F;
+}
+.header .button{
+    background-color: #FE424F;
+    font-weight: 700;
+    transition: background-color 0.5s;
+}
+.header .button:hover{
+    background-color: #fafafa;
+}
